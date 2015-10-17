@@ -1,14 +1,14 @@
 Package.describe({
   name: 'meteoric:ionic-sass',
   summary: "Ionic's CSS Framework in SASS and bundled for Meteor.",
-  version: '0.3.0',
+  version: '0.3.1',
   git: 'https://github.com/meteoric/ionic-sass'
 });
 
 Package.onUse(function(api) {
   api.versionsFrom('1.0');
-  api.use("fourseven:scss@3.2.0", ["server"]);
-  api.imply("fourseven:scss", ["server"]);
+  api.use("fourseven:scss");
+  api.imply("fourseven:scss");
 
   api.addFiles([
     'stylesheets/_action-sheet.scss',
@@ -45,7 +45,7 @@ Package.onUse(function(api) {
     'stylesheets/_type.scss',
     'stylesheets/_util.scss',
     'stylesheets/_variables.scss'
-  ], 'server');
+  ], 'client');
 
-  api.addFiles('_ionic.scss', 'server');
+  api.addFiles('_ionic.scss', 'client', {isImport: true});
 });

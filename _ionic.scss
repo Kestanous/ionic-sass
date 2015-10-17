@@ -1,51 +1,50 @@
 @charset "UTF-8";
 
 @import
-
   // Variables
-  "stylesheets/mixins",
-  "stylesheets/variables",
+  "{meteoric:ionic-sass}/stylesheets/mixins",
+  "{meteoric:ionic-sass}/stylesheets/variables",
 
   // Base
-  "stylesheets/reset",
-  "stylesheets/scaffolding",
-  "stylesheets/type",
+  "{meteoric:ionic-sass}/stylesheets/reset",
+  "{meteoric:ionic-sass}/stylesheets/scaffolding",
+  "{meteoric:ionic-sass}/stylesheets/type",
 
   // Components
-  "stylesheets/action-sheet",
-  "stylesheets/backdrop",
-  "stylesheets/bar",
-  "stylesheets/tabs",
-  "stylesheets/menu",
-  "stylesheets/modal",
-  "stylesheets/popover",
-  "stylesheets/popup",
-  "stylesheets/loading",
-  "stylesheets/items",
-  "stylesheets/list",
-  "stylesheets/badge",
-  "stylesheets/slide-box",
-  "stylesheets/refresher",
-  "stylesheets/spinner",
+  "{meteoric:ionic-sass}/stylesheets/action-sheet",
+  "{meteoric:ionic-sass}/stylesheets/backdrop",
+  "{meteoric:ionic-sass}/stylesheets/bar",
+  "{meteoric:ionic-sass}/stylesheets/tabs",
+  "{meteoric:ionic-sass}/stylesheets/menu",
+  "{meteoric:ionic-sass}/stylesheets/modal",
+  "{meteoric:ionic-sass}/stylesheets/popover",
+  "{meteoric:ionic-sass}/stylesheets/popup",
+  "{meteoric:ionic-sass}/stylesheets/loading",
+  "{meteoric:ionic-sass}/stylesheets/items",
+  "{meteoric:ionic-sass}/stylesheets/list",
+  "{meteoric:ionic-sass}/stylesheets/badge",
+  "{meteoric:ionic-sass}/stylesheets/slide-box",
+  "{meteoric:ionic-sass}/stylesheets/refresher",
+  "{meteoric:ionic-sass}/stylesheets/spinner",
 
   // Forms
-  "stylesheets/form",
-  "stylesheets/checkbox",
-  "stylesheets/toggle",
-  "stylesheets/radio",
-  "stylesheets/range",
-  "stylesheets/select",
-  "stylesheets/progress",
+  "{meteoric:ionic-sass}/stylesheets/form",
+  "{meteoric:ionic-sass}/stylesheets/checkbox",
+  "{meteoric:ionic-sass}/stylesheets/toggle",
+  "{meteoric:ionic-sass}/stylesheets/radio",
+  "{meteoric:ionic-sass}/stylesheets/range",
+  "{meteoric:ionic-sass}/stylesheets/select",
+  "{meteoric:ionic-sass}/stylesheets/progress",
 
   // Buttons
-  "stylesheets/button",
-  "stylesheets/button-bar",
+  "{meteoric:ionic-sass}/stylesheets/button",
+  "{meteoric:ionic-sass}/stylesheets/button-bar",
 
   // Util
-  "stylesheets/grid",
-  "stylesheets/util",
-  "stylesheets/platform",
+  "{meteoric:ionic-sass}/stylesheets/grid",
+  "{meteoric:ionic-sass}/stylesheets/util",
+  "{meteoric:ionic-sass}/stylesheets/platform",
 
   // Animations
-  "stylesheets/animations",
-  "stylesheets/transitions";
+  "{meteoric:ionic-sass}/stylesheets/animations",
+  "{meteoric:ionic-sass}/stylesheets/transitions";
